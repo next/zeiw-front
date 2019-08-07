@@ -10,7 +10,7 @@ module.exports = {
         headers: {
           '/*': [
             'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload',
-            "Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://res.cloudinary.com;",
+            "Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'none'; base-uri 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://res.cloudinary.com;",
             'Cache-Control: public, max-age=15, must-revalidate',
             "Feature-Policy: accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'self'; camera 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture *; speaker 'none'; sync-xhr 'none'; usb 'none'; vr 'none'"
           ]
