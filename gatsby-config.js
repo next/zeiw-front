@@ -3,6 +3,10 @@ module.exports = {
     {
       resolve: `gatsby-theme-blog`,
       options: {}
+    },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {}
     }
   ],
   siteMetadata: {
