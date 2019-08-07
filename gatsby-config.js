@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         name: `security`,
-        url: `https://github.com/ZEIW/ZEIW/blob/master/SECURITY.md`
+        url: `https://github.com/ZEIW/ZEIW/security/policy`
       },
       {
         name: `status`,

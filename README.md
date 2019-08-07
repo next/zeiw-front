@@ -4,6 +4,7 @@
 
 Source code for the ZEIW blog 📝
 
+[![](https://api.netlify.com/api/v1/badges/7822f2fc-6d0e-41b8-852b-94ea2765ebc8/deploy-status)](https://app.netlify.com/sites/zeiw-blog/deploys)
 [![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
 
 ## Install
