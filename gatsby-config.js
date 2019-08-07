@@ -16,15 +16,15 @@ module.exports = {
     social: [
       {
         name: `terms`,
-        url: `https://github.com/ZEIW/ZEIW/blob/master/TERMS.md`
+        url: `https://zeiw.me/terms`
       },
       {
         name: `privacy`,
-        url: `https://github.com/ZEIW/ZEIW/blob/master/PRIVACY.md`
+        url: `https://zeiw.me/privacy`
       },
       {
         name: `security`,
-        url: `https://github.com/ZEIW/ZEIW/security/policy`
+        url: `https://zeiw.me/security`
       },
       {
         name: `status`,
