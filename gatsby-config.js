@@ -11,18 +11,6 @@ module.exports = {
     description: `Open source community-based game 🏓`,
     social: [
       {
-        name: `discord`,
-        url: `https://discord.gg/h7NxqBe`
-      },
-      {
-        name: `twitter`,
-        url: `https://twitter.com/zeiwhq`
-      },
-      {
-        name: `github`,
-        url: `https://github.com/ZEIW`
-      },
-      {
         name: `terms`,
         url: `https://github.com/ZEIW/ZEIW/blob/master/TERMS.md`
       },
