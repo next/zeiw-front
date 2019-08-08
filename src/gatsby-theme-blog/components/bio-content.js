@@ -8,6 +8,7 @@ export default () => (
       🏓
     </span>
     <br />
+    <Styled.a href="https://play.zeiw.me">play now</Styled.a> •{' '}
     <Styled.a href="https://discord.gg/h7NxqBe">discord</Styled.a> •{' '}
     <Styled.a href="https://twitter.com/zeiwhq">twitter</Styled.a> •{' '}
     <Styled.a href="https://github.com/ZEIW">github</Styled.a>
