@@ -5621,10 +5621,10 @@ gatsby-telemetry@^1.1.11:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-blog-core@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-blog-core/-/gatsby-theme-blog-core-1.0.2.tgz#60b55307c9df982b0d93482ffb150f70b1538469"
-  integrity sha512-iha+h7M9KxmPFIupPHh0JkgeIEud85+5nXoTH+a+iBw4I09Fkd8vY+1R7RnycX/XIHn5T8jTSPi6JTjjhDdRJA==
+gatsby-theme-blog-core@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-blog-core/-/gatsby-theme-blog-core-1.1.0.tgz#4f3aea63b7ce3666fe5be2ab6170e4a40c9daeb1"
+  integrity sha512-jLimXR/B8ltl7jF5thN0G/jQj2cFzT4ThLdFHVE8bDqWc0sKQhsRmexARGiuLNXXUDIb6gSO5TAtvvpHp59Hbw==
   dependencies:
     "@mdx-js/mdx" "^1.3.0"
     gatsby-plugin-mdx "^1.0.24"
@@ -5636,10 +5636,10 @@ gatsby-theme-blog-core@^1.0.2:
     gatsby-transformer-sharp "^2.2.6"
     remark-slug "^5.1.2"
 
-gatsby-theme-blog@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-blog/-/gatsby-theme-blog-1.1.2.tgz#a5b1b9e761b074a8a823663e3503fa36c37d5b83"
-  integrity sha512-XHBUoKAdEKap2h1q4fapWb3226PrciS6mKKuc1IJVF5eQQBlJWlfHFDeNpwPuGlyp/S879akZs+p29rOfjY73A==
+gatsby-theme-blog@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-blog/-/gatsby-theme-blog-1.2.1.tgz#7327ffb63a447a54935741daea9166147fd5f275"
+  integrity sha512-yiJq9sAp43lxwvAhd1RxU87UGxorS9QT0nyu2TI8PT/CzKppzMSe8jCoLFPuneTBmBoydrvH+XTkxClKPOAFHA==
   dependencies:
     "@emotion/core" "^10.0.15"
     "@mdx-js/react" "^1.3.0"
@@ -5652,7 +5652,7 @@ gatsby-theme-blog@^1.1.2:
     gatsby-plugin-react-helmet "^3.1.3"
     gatsby-plugin-theme-ui "^0.2.33"
     gatsby-plugin-twitter "^2.1.2"
-    gatsby-theme-blog-core "^1.0.2"
+    gatsby-theme-blog-core "^1.1.0"
     mdx-utils "0.2.0"
     react-helmet "^5.2.1"
     react-switch "^5.0.1"
