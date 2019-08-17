@@ -1,0 +1,24 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "repository": "git@github.com:ZEIW/front.git",
+  "license": "MIT",
+  "author": "ZEIW",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "d": "yarn develop",
+    "develop": "gatsby develop",
+    "start": "gatsby develop"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-cara": "^0.0.9",
+    "gatsby": "^2.13.67",
+    "gatsby-plugin-google-analytics": "^2.1.7",
+    "gatsby-plugin-manifest": "^2.2.5",
+    "gatsby-plugin-netlify": "^2.1.5",
+    "gatsby-plugin-offline": "^2.2.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
