@@ -4,7 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `ZEIW`,
     siteTitleAlt: `ZEIW`,
+    siteHeadline: `ZEIW`,
+    siteUrl: `https://zeiw.me`,
+    siteDescription: `Open source community-based game 🏓`,
+    siteLanguage: `en`,
+    siteImage: `/img/cover.jpg`,
+    author: `@zeiwhq`,
   },
   plugins: [
     {
@@ -23,12 +30,12 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/favicon/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/favicon/android-chrome-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
