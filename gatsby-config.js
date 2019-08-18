@@ -1,6 +1,6 @@
 require(`dotenv`).config({
-  path: `.env`,
-})
+  path: `.env`
+});
 
 module.exports = {
   siteMetadata: {
@@ -11,12 +11,12 @@ module.exports = {
     siteDescription: `Open source community-based game 🏓`,
     siteLanguage: `en`,
     siteImage: `/cover.jpg`,
-    author: `@zeiwhq`,
+    author: `@zeiwhq`
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
-      options: {},
+      options: {}
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -32,17 +32,27 @@ module.exports = {
           {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/png`
           },
           {
             src: `/android-chrome-512x512.png`,
             sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
+            type: `image/png`
+          }
+        ]
+      }
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
-  ],
-}
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          "/*": [
+            "Content-Security-Policy: block-all-mixed-content",
+            "Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+          ]
+        }
+      }
+    }
+  ]
+};
