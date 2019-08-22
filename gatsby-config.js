@@ -1,7 +1,3 @@
-require(`dotenv`).config({
-  path: `.env`
-});
-
 module.exports = {
   siteMetadata: {
     siteTitle: `ZEIW`,
@@ -47,12 +43,12 @@ module.exports = {
       resolve: `gatsby-plugin-netlify`,
       options: {
         headers: {
-          "/*": [
-            "Content-Security-Policy: block-all-mixed-content",
+          '/*': [
+            'Content-Security-Policy: block-all-mixed-content',
             "Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
           ]
         }
       }
     }
   ]
-};
+}
