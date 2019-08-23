@@ -23,8 +23,8 @@
     "@lekoarts/gatsby-theme-cara": "^0.0.10",
     "gatsby": "^2.13.76",
     "gatsby-plugin-manifest": "^2.2.9",
-    "gatsby-plugin-netlify": "^2.1.8",
-    "gatsby-plugin-offline": "^2.2.7",
+    "gatsby-plugin-netlify": "^2.1.9",
+    "gatsby-plugin-offline": "^2.2.10",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
