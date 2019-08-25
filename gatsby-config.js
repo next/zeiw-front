@@ -44,7 +44,7 @@ module.exports = {
       options: {
         headers: {
           '/*': [
-            "Content-Security-Policy: base-uri 'self'; block-all-mixed-content; connect-src 'self'; default-src 'none'; frame-ancestors 'self'; img-src 'self' data:; manifest-src 'self'; media-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'",
+            "Content-Security-Policy: base-uri 'self'; block-all-mixed-content; connect-src 'self'; default-src 'none'; frame-ancestors 'self'; img-src 'self' data:; manifest-src 'self'; media-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'",
             "Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'",
             "Referrer-Policy: strict-origin-when-cross-origin",
             "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
