@@ -44,11 +44,12 @@ module.exports = {
       options: {
         headers: {
           '/*': [
-            "Content-Security-Policy: base-uri 'self'; block-all-mixed-content; connect-src 'self'; default-src 'none'; frame-ancestors 'self'; img-src 'self' data: img.lekoarts.de; manifest-src 'self'; media-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'",
+            "Content-Security-Policy: connect-src 'self' img.lekoarts.de; default-src 'self'; img-src 'self' img.lekoarts.de; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'",
             "Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'",
             'Referrer-Policy: strict-origin-when-cross-origin',
             'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload',
             'X-Content-Type-Options: nosniff',
+            'X-Frame-Options: sameorigin',
             'X-XSS-Protection: 1; mode=block'
           ]
         }
