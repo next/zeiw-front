@@ -1,9 +1,10 @@
 {
-  "name": "front",
+  "name": "zeiw-front",
   "version": "1.0.0",
-  "repository": "git@github.com:ZEIW/front.git",
+  "repository": "git@github.com:next/zeiw-front.git",
   "license": "MIT",
-  "author": "ZEIW",
+  "author": "Casper <pnfcre@gmail.com>",
+  "main": "index.js",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
