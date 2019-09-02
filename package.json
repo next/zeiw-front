@@ -21,16 +21,16 @@
     "tabWidth": 2
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.0.1",
+    "@lekoarts/gatsby-theme-cara": "^1.0.3",
     "gatsby": "^2.14.0",
     "gatsby-plugin-manifest": "^2.2.9",
-    "gatsby-plugin-netlify": "^2.1.10",
     "gatsby-plugin-offline": "^3.0.1",
+    "gatsby-plugin-netlify": "^2.1.11",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "husky": "^3.0.4",
+    "husky": "^3.0.5",
     "prettier": "1.18.2",
     "pretty-quick": "^1.11.1"
   }
