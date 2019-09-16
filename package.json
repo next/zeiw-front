@@ -25,7 +25,7 @@
     "gatsby-plugin-offline": "^3.0.6",
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",
-    "gatsby-plugin-netlify": "^2.1.12",
+    "gatsby-plugin-netlify": "^2.1.13",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
