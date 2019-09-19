@@ -21,7 +21,7 @@
     "tabWidth": 2
   },
   "dependencies": {
-    "gatsby": "^2.15.17",
+    "gatsby": "^2.15.18",
     "gatsby-plugin-offline": "^3.0.7",
     "@lekoarts/gatsby-theme-cara": "^1.0.5",
     "gatsby-plugin-manifest": "^2.2.16",
