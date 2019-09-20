@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "gatsby": "^2.15.19",
-    "gatsby-plugin-offline": "^3.0.7",
+    "gatsby-plugin-offline": "^3.0.8",
     "@lekoarts/gatsby-theme-cara": "^1.0.5",
     "gatsby-plugin-netlify": "^2.1.14",
     "gatsby-plugin-manifest": "^2.2.18",
