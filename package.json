@@ -26,8 +26,8 @@
     "@lekoarts/gatsby-theme-cara": "^1.0.6",
     "gatsby-plugin-netlify": "^2.1.17",
     "gatsby-plugin-manifest": "^2.2.20",
+    "react-dom": "^16.10.2"
     "react": "^16.10.2",
-    "react-dom": "^16.10.1"
   },
   "devDependencies": {
     "husky": "^3.0.8",
