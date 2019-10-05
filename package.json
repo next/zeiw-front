@@ -1,10 +1,6 @@
 {
   "name": "zeiw-front",
-  "version": "1.0.0",
-  "repository": "git@github.com:next/zeiw-front.git",
   "license": "MIT",
-  "author": "Casper <pnfcre@gmail.com>",
-  "main": "index.js",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
@@ -21,17 +17,17 @@
     "tabWidth": 2
   },
   "dependencies": {
-    "gatsby": "^2.15.28",
-    "gatsby-plugin-offline": "^3.0.11",
     "@lekoarts/gatsby-theme-cara": "^1.0.6",
-    "gatsby-plugin-netlify": "^2.1.17",
+    "gatsby": "^2.15.29",
     "gatsby-plugin-manifest": "^2.2.20",
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1"
+    "gatsby-plugin-netlify": "^2.1.17",
+    "gatsby-plugin-offline": "^3.0.11",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   },
   "devDependencies": {
     "husky": "^3.0.8",
-    "prettier": "1.18.2",
+    "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1"
   }
 }
