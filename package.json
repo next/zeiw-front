@@ -22,7 +22,7 @@
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-offline": "^3.0.16",
     "gatsby-plugin-netlify": "^2.1.22",
-    "react": "^16.10.2",
+    "react": "^16.11.0",
     "react-dom": "^16.10.2"
   },
   "devDependencies": {
