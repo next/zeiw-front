@@ -17,7 +17,7 @@
     "tabWidth": 2
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.0.8",
+    "@lekoarts/gatsby-theme-cara": "^1.0.9",
     "gatsby-plugin-manifest": "^2.2.26",
     "gatsby-plugin-offline": "^3.0.17",
     "gatsby-plugin-netlify": "^2.1.23",
