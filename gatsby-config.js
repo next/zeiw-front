@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
+    author: `@zeiwhq`,
     siteTitle: `ZEIW`,
+    siteLanguage: `en`,
     siteTitleAlt: `ZEIW`,
     siteHeadline: `ZEIW`,
-    siteUrl: `https://zeiw.me`,
-    siteDescription: `Open source community-based game 🏓`,
-    siteLanguage: `en`,
     siteImage: `/cover.jpg`,
-    author: `@zeiwhq`
+    siteUrl: `https://zeiw.me`,
+    siteDescription: `Open source community-based game.`
   },
   plugins: [
     {
@@ -18,12 +18,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `ZEIW`,
-        short_name: `ZEIW`,
-        description: `Open source community-based game 🏓`,
         start_url: `/`,
-        background_color: `#0066ff`,
-        theme_color: `#ff9900`,
+        short_name: `ZEIW`,
         display: `standalone`,
+        theme_color: `#ff9900`,
+        background_color: `#0066ff`,
+        description: `Open source community-based game.`,
         icons: [
           {
             src: `/android-chrome-192x192.png`,
@@ -44,13 +44,13 @@ module.exports = {
       options: {
         headers: {
           '/*': [
-            "Content-Security-Policy: connect-src 'self' img.lekoarts.de www.netlify.com; default-src 'self'; img-src 'self' img.lekoarts.de www.netlify.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'",
-            "Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'",
+            'X-Frame-Options: DENY',
+            'X-XSS-Protection: 1; mode=block',
+            'X-Content-Type-Options: nosniff',
             'Referrer-Policy: strict-origin-when-cross-origin',
             'Strict-Transport-Security: max-age=31536000; includeSubDomains; preload',
-            'X-Content-Type-Options: nosniff',
-            'X-Frame-Options: DENY',
-            'X-XSS-Protection: 1; mode=block'
+            "Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'",
+            "Content-Security-Policy: connect-src 'self' img.lekoarts.de www.netlify.com; default-src 'self'; img-src 'self' img.lekoarts.de www.netlify.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'"
           ]
         }
       }
