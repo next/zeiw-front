@@ -9,7 +9,7 @@
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^1.0.17",
     "gatsby": "^2.19.2",
-    "gatsby-plugin-manifest": "^2.2.37",
+    "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-netlify": "^2.1.31",
     "gatsby-plugin-offline": "^3.0.32",
     "react": "^16.12.0",
