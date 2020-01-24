@@ -7,7 +7,7 @@
     "start": "gatsby develop"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.0.17",
+    "@lekoarts/gatsby-theme-cara": "^1.0.18",
     "gatsby": "^2.19.3",
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-netlify": "^2.1.31",
