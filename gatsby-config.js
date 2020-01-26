@@ -6,7 +6,7 @@ module.exports = {
     siteTitleAlt: `ZEIW`,
     siteHeadline: `ZEIW`,
     siteImage: `/cover.jpg`,
-    siteUrl: `https://zeiw.me`,
+    siteUrl: `https://zeiw.pnfc.re`,
     siteDescription: `Open source community-based game.`
   },
   plugins: [
