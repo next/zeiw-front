@@ -4,7 +4,8 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "test": "echo 👀"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^1.0.18",
