@@ -8,7 +8,7 @@
     "test": "echo 👀"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.0.18",
+    "@lekoarts/gatsby-theme-cara": "^2.0.1",
     "gatsby": "^3.1.2",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-netlify": "^3.0.0",
